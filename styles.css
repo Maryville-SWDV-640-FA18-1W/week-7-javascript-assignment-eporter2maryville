@@ -1,18 +1,21 @@
 body {
-  font-family: Helvetica, Arial, "sans-serif";
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   background-color: black;
 }
 h1 {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: underline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  vertical-align: bottom;
 }
 h2 {
   font-size: 20px;
 }
 h3 {
   font-size: 16px;
+  color: #1987ee;
 }
 button {
   background-color: #1987ee;
@@ -78,6 +81,77 @@ svg.svg-inline--fa {
   text-align: center;
 }
 
+a:link {
+  color: #dfdfdf; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #dfdfdf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1987ee;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1987ee;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#menuBar {
+  vertical-align: bottom;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social {
+  justify-content: flex-end;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  color: slategray;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+.phone{
+  color: #1987ee;
+
+}
+.email{
+  color: #1987ee;
+
+}
 /* external css: flickity.css */
 
 * { box-sizing: border-box; }
